@@ -1,6 +1,7 @@
 ---
 title: Impressum
 lang: de-DE
+navbar: false
 ---
 
 # Impressum
