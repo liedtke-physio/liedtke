@@ -25,12 +25,12 @@ jobs:
       env:
         CI: true
     - name: deploy to server
-        uses: AEnterprise/rsync-deploy@v1.0
-        env:
-          DEPLOY_KEY: ${{ secrets.DEPLOYER }}
-          ARGS: "-e -c -r --delete"
-          SERVER_PORT: 37066
-          FOLDER: "./physio/.vuepress/dist"
-          SERVER_IP: ${{ secrets.SERVER_IP }}
-          USERNAME: liedtke
-          SERVER_DESTINATION: /home/liedtke/www
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOYER }}
+        ARGS: "-e -c -r --delete"
+        SERVER_PORT: 37066
+        FOLDER: "./physio/.vuepress/dist"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: liedtke
+        SERVER_DESTINATION: /home/liedtke/www
