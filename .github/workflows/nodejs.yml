@@ -1,16 +1,13 @@
-name: Node CI
+name: Build & Deploy
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [8.x, 10.x, 12.x]
-
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
@@ -20,17 +17,27 @@ jobs:
     - name: Install vuepress
       run: |
         npm install vuepress -g
-        cd physio
-        vuepress build
+        cd physio && vuepress build && cd ..
+        cd beratung && vuepress build && cd ..
       env:
         CI: true
-    - name: deploy to server
+    - name: Deploy Physio to server
       uses: AEnterprise/rsync-deploy@v1.0
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOYER }}
         ARGS: "-e -c -r --delete"
         SERVER_PORT: 37066
         FOLDER: "./physio/.vuepress/dist/*"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: liedtke
+        SERVER_DESTINATION: /home/liedtke/www/physio
+    - name: Deploy Beratung to server
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOYER }}
+        ARGS: "-e -c -r --delete"
+        SERVER_PORT: 37066
+        FOLDER: "./beratung/.vuepress/dist/*"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: liedtke
         SERVER_DESTINATION: /home/liedtke/www/physio
