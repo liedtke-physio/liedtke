@@ -1,6 +1,9 @@
 ---
 title: Kontakt
 lang: de-DE
+meta:
+  - name: description
+    content: Physiotherapie Liedtke | Kontakt
 ---
 
 # Kontakt

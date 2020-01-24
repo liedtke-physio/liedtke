@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Physiotherapie Liedtke",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bernauer Straße 97",
+    "addressLocality": "Oranienburg",
+    "addressRegion": "",
+    "postalCode": "16515",
+    "addressCountry": "Germany"
+  },
+  "email": "physio-oranienburg@gmx.de",
+  "faxNumber": "",
+  "telephone": "03301 423464",
+  "description": "",
+  "logo": "https://www.physio-oranienburg.de/logo.png",
+  "image": "https://www.physio-oranienburg.de/logo.png",
+  "url": "https://www.physio-oranienburg.de/",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "http://schema.org/Monday",
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "http://schema.org/Tuesday",
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "http://schema.org/Wednesday",
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "http://schema.org/Thursday",
+      "opens": "08:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "http://schema.org/Friday",
+      "opens": "08:00",
+      "closes": "13:00"
+    }
+  ]
+}

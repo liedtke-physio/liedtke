@@ -2,6 +2,9 @@
 title: Anwendungen
 name: anwendungen
 lang: de-DE
+meta:
+  - name: description
+    content: Physiotherapie Liedtke | Unsere Leistungen
 ---
 
 # Physiotherapeutische Leistungen

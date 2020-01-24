@@ -2,6 +2,9 @@
 title: Angebote
 name: angebote
 lang: de-DE
+meta:
+  - name: description
+    content: Physiotherapie Liedtke | Unsere Angebote
 ---
 
 # Angebot für private Leistungen Preise ab 01.12.2018 (Entspannung, Prophylaxe)

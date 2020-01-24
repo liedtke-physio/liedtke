@@ -1,6 +1,9 @@
 ---
-title: Philosophie
+title: Unternehmensphilosophie
 lang: de-DE
+meta:
+  - name: description
+    content: Physiotherapie Liedtke | Unternehmensphilosophie
 ---
 
 # Unternehmensphilosophie (Leitbilddefinition)

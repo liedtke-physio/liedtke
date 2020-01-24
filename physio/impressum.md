@@ -2,6 +2,9 @@
 title: Impressum
 lang: de-DE
 navbar: false
+meta:
+  - name: description
+    content: Physiotherapie Liedtke | Impressum
 ---
 
 # Impressum
