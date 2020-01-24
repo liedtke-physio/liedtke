@@ -40,4 +40,4 @@ jobs:
         FOLDER: "./beratung/.vuepress/dist/*"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: liedtke
-        SERVER_DESTINATION: /home/liedtke/www/physio
+        SERVER_DESTINATION: /home/beratung/www/physio
