@@ -1,0 +1,36 @@
+name: Build & Deploy Physio
+
+on:
+  push:
+    paths:
+    - 'physio/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install vuepress
+      run: |
+        npm install vuepress -g
+        cd physio 
+        vuepress build
+      env:
+        CI: true
+    - name: Deploy Physio to server
+      uses: AEnterprise/rsync-deploy@v1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOYER }}
+        ARGS: "-e -c -r --delete"
+        SERVER_PORT: 37066
+        FOLDER: "./physio/.vuepress/dist/*"
+        SERVER_IP: ${{ secrets.SERVER_IP }}
+        USERNAME: liedtke
+        SERVER_DESTINATION: /home/liedtke/www/physio

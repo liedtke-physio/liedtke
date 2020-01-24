@@ -1,6 +1,9 @@
-name: Build & Deploy
+name: Build & Deploy Beratung
 
-on: [push]
+on:
+  push:
+    paths:
+    - 'beratung/**'
 
 jobs:
   build:
@@ -17,20 +20,10 @@ jobs:
     - name: Install vuepress
       run: |
         npm install vuepress -g
-        cd physio && vuepress build && cd ..
-        cd beratung && vuepress build && cd ..
+        cd beratung
+        vuepress build
       env:
         CI: true
-    - name: Deploy Physio to server
-      uses: AEnterprise/rsync-deploy@v1.0
-      env:
-        DEPLOY_KEY: ${{ secrets.DEPLOYER }}
-        ARGS: "-e -c -r --delete"
-        SERVER_PORT: 37066
-        FOLDER: "./physio/.vuepress/dist/*"
-        SERVER_IP: ${{ secrets.SERVER_IP }}
-        USERNAME: liedtke
-        SERVER_DESTINATION: /home/liedtke/www/physio
     - name: Deploy Beratung to server
       uses: AEnterprise/rsync-deploy@v1.0
       env:
