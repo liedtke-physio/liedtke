@@ -18,6 +18,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install vuepress
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-vuepress }}
+        restore-keys: |
+          ${{ runner.os }}-node-
       run: |
         npm install vuepress -g
         cd physio
@@ -30,7 +36,7 @@ jobs:
         DEPLOY_KEY: ${{ secrets.DEPLOYER }}
         ARGS: "-e -c -r --delete"
         SERVER_PORT: 37066
-        FOLDER: "./physio/.vuepress/dist"
+        FOLDER: "./physio/.vuepress/dist/*"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: liedtke
-        SERVER_DESTINATION: /home/liedtke/www
+        SERVER_DESTINATION: /home/liedtke/www/physio
