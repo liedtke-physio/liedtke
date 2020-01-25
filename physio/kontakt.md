@@ -19,7 +19,7 @@ meta:
             <td>03301/423464 <a href="tel:03301423464"><strong>Jetzt Anrufen?</strong></a></td>
         </tr>
         <tr>
-            <td><strong>eMail:</strong></td>
+            <td><strong>E-Mail:</strong></td>
             <td><a href="mailto:info@physio-oranienburg.de">physio-oranienburg@gmx.de</a></td>
         </tr>
             </tbody>
@@ -47,6 +47,5 @@ meta:
   height="450" 
   frameborder="0" 
   style="max-width:450px;width:100%;border:0;margin:20px 0;" allowfullscreen=""></iframe>
-
 
 <a target="_blank" href="http://maps.google.de/maps?f=q&amp;source=embed&amp;hl=de&amp;geocode=&amp;q=physio+bernauerstra%C3%9Fe+97&amp;aq=&amp;sll=52.762593,13.257322&amp;sspn=0.008946,0.01929&amp;gl=de&amp;ie=UTF8&amp;hq=physio+bernauerstra%C3%9Fe+97&amp;hnear=&amp;ll=52.762294,13.256721&amp;spn=0.010388,0.021415&amp;z=15&amp;iwloc=A">Größere Kartenansicht</a>
