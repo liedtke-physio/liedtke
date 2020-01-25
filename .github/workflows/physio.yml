@@ -26,6 +26,9 @@ jobs:
       with:
         node-version: '12.x'
     - name: Build
+      run: ls -la
+      run: echo ${{ secrets.SERVER_PHYSIO_DEST }}
+      run: ls ~/.npm
       run: npx vuepress build
       env:
         CI: true
