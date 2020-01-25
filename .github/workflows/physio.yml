@@ -8,20 +8,25 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
+      with:
+        path: physio
+    - name: Cache node modules
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
+        key: ${{ runner.os }}-node-vuepress
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+    - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install vuepress
-      run: |
-        npm install vuepress -g
-        cd physio 
-        vuepress build
+        node-version: '12.x'
+    - name: Build
+      run: npx vuepress build
       env:
         CI: true
     - name: Deploy Physio to server
@@ -29,8 +34,8 @@ jobs:
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOYER }}
         ARGS: "-e -c -r --delete"
-        SERVER_PORT: 37066
-        FOLDER: "./physio/.vuepress/dist/*"
+        SERVER_PORT: ${{ secrets.SERVER_PORT }}
+        FOLDER: ".vuepress/dist/*"
         SERVER_IP: ${{ secrets.SERVER_IP }}
-        USERNAME: liedtke
-        SERVER_DESTINATION: /home/liedtke/www/physio
+        USERNAME: ${{ secrets.SERVER_USERNAME }}
+        SERVER_DESTINATION: ${{ secrets.SERVER_PHYSIO_DEST }}
