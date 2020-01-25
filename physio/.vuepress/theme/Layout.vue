@@ -257,6 +257,15 @@
 
     .nav-list {
       padding-bottom: 8px;
+      justify-content: start;
+    }
+
+    .nav-item {
+      width: 100%;
+      flex: 1 1;
+      max-width: 150px;
+      text-align: center;
+      margin: 4px 0;
     }
 
     .nav-link {
