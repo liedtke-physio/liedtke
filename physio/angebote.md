@@ -35,6 +35,6 @@ Bspw. 5 Massagen zu 90,- € statt 100,- €
 **Alle Leistungen sind auch als Geschenkgutschein erhältlich**
 
 <style>
-  .angebote table { width: 100%}
+  .angebote table { width: 100%; }
   .angebote td:not(:first-child) { padding: 0 4px; white-space: nowrap; }
 </style>
