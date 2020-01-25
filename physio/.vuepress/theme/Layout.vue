@@ -128,6 +128,7 @@
     border-left-width: 16px;
     background: #ffe7c5;
     box-sizing: border-box;
+    margin-top: 20px;
   }
 
   .site {
@@ -260,8 +261,8 @@
 
     .nav-link {
       border-radius: 3px;
+      border: 1px solid #900;
     }
-
   }
 
   @media all and (max-width: 490px) {

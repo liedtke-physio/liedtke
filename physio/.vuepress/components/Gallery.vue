@@ -48,6 +48,11 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -2px;
+    justify-content: space-between;
+    padding: 10px;
+    background: #ff994059;
+    border-radius: 5px;
+    margin-top: 10px;
   }
 
   .figure {
@@ -58,6 +63,8 @@
     display: block;
     width: 80px;
     height: 80px;
+    overflow: hidden;
+    border-radius: 3px;
     overflow: hidden;
   }
 
