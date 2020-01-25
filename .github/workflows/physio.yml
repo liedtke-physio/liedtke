@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Cache node modules
+    - name: Cache
       uses: actions/cache@v1
       with:
         path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
@@ -19,7 +19,7 @@ jobs:
           ${{ runner.os }}-build-${{ env.cache-name }}-
           ${{ runner.os }}-build-
           ${{ runner.os }}-
-    - name: Setup Node.js
+    - name: Setup
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
@@ -29,7 +29,7 @@ jobs:
         npx vuepress build
       env:
         CI: true
-    - name: Deploy Physio to server
+    - name: Deploy
       uses: AEnterprise/rsync-deploy@v1.0
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOYER }}
@@ -38,4 +38,4 @@ jobs:
         FOLDER: "./physio/.vuepress/dist/*"
         SERVER_IP: ${{ secrets.SERVER_IP }}
         USERNAME: ${{ secrets.SERVER_USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.SERVER_PHYSIO_DEST }}
+        SERVER_DESTINATION: ${{ secrets.SERVER_DEST }}/physio
