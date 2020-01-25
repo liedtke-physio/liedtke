@@ -7,6 +7,14 @@
         <img alt="Liedkte" src="../../assets/liedtke.png" class="liedtke" />
       </header>
       <nav class="nav">
+        <input id="menu-checkbox" type="checkbox" v-model="nav">
+
+        <label for="menu-checkbox" class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
         <ul class="nav-list">
           <li
                   v-for="item in userLinks"
@@ -17,6 +25,7 @@
                     class="nav-link"
                     :to="link(item.link)"
                     :exact="true"
+                    @click.native="nav = false"
             >
               {{ item.text }}
             </RouterLink>
@@ -66,7 +75,8 @@
         }, {
           text: '[Impressum]',
           link: '/impressum.html'
-        }]
+        }],
+        nav: false
       }
     },
     methods: {
@@ -109,12 +119,15 @@
   }
 </style>
 <style scoped>
+  .container {
+    margin: 0 15px;
+  }
   .content {
     display: flex;
     position: relative;
     max-width: 940px;
     margin: 10px auto;
-    margin-top: 120px;
+    margin-top: 100px;
     border: 3px solid #2d1a29;
     background: #cfb8aa;
     box-sizing: border-box;
@@ -124,6 +137,10 @@
   .header {
     position: absolute;
     width: 100%;
+  }
+
+  .header img {
+    z-index: 2;
   }
 
   .logo {
@@ -150,17 +167,74 @@
     padding: 60px 20px;
   }
 
+  .menu, #menu-checkbox {
+    display: none;
+  }
+
+  .menu {
+    width: 45px;
+    height: 40px;
+    position: relative;
+    margin: 10px auto;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .menu span {
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    background: #333;
+    border-radius: 3px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .35s ease-in-out;
+  }
+
+  .menu span:nth-child(1) {
+    top: 0;
+    transform-origin: left center;
+  }
+
+  .menu span:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform-origin: left center;
+  }
+
+  .menu span:nth-child(3) {
+    bottom: 0;
+    transform-origin: left center;
+  }
+
+  #menu-checkbox:checked ~ .menu span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  #menu-checkbox:checked ~ .menu span:nth-child(2) {
+    width: 0;
+    opacity: 0;
+  }
+
+  #menu-checkbox:checked ~ .menu span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
   .nav {
-    padding-top: 60px;
     flex-shrink: 0;
     background: #9e8574;
-    padding-bottom: 100px;
+    min-height: 60px;
   }
 
   .nav-list {
     display: flex;
     flex-direction: column;
     margin: 0;
+    margin-top: 100px;
     padding: 0;
     list-style: none;
     width: 100%;
@@ -197,6 +271,7 @@
     background: #2d1a29;
     height: 16px;
     bottom: 0;
+    z-index: 2;
   }
 
   .footer::after {
@@ -238,6 +313,33 @@
   @media all and (max-width: 490px) {
     h1 {
       font-size: 18px;
+    }
+  }
+
+  @media all and (max-width: 720px) {
+    .nav {
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+    }
+
+    .nav-list {
+      display: none;
+      margin-top: 20px;
+    }
+
+    #menu-checkbox:checked ~ .nav-list {
+      display: block;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #000;
+    }
+
+    .menu {
+      display: block;
+    }
+
+    .liedtke {
+      display: none;
     }
   }
 </style>
