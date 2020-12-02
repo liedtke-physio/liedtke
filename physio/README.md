@@ -50,3 +50,4 @@ Die Rechtsgrundlage für die Datenverarbeitung in unserer Einrichtung ist der zw
 Nach dem Datenschutzgesetz steht Ihnen das Recht zu, sich im Falle von Verletzungen Ihrer Rechte bei der zuständigen Aufsichtsbehörde zu beschweren.
 
 Mit freundlichen Grüßen - Ihr Praxisteam
+
