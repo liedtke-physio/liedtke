@@ -2,7 +2,7 @@
   <Gallery :images="images"/>
 </template>
 <script>
-  const names = ['Ute', 'Nadine', 'Vanessa', 'Anika', 'Ines'];
+  const names = ['Ute', 'Nadine', 'Vanessa', 'Anika'];
 
   export default {
     name: 'Team',
