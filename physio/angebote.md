@@ -7,30 +7,33 @@ meta:
     content: Physiotherapie Liedtke | Unsere Angebote
 ---
 
-# Angebot für private Leistungen Preise ab 01.12.2018 (Entspannung, Prophylaxe)
+Gültigkeit der Preise ab 01.05.2021
+
+# Angebot für private Leistungen (Entspannung, Prophylaxe)
 
 | Massagen                  | Dauer  | Preis   |
 | ------------------------- |:------:| -------:|
-| Gesichts- und Kopfmassage | 25 Min | 20,00 € |
-| Klassische Massage        | 25 Min | 20,00 € |
-| Fußreflexzonenmassage     | 30 Min | 25,00 € |
-| Fußreflexzonenmassage     | 45 Min | 37,50 € |
-| Ganzkörper-Massage        | 50 Min | 40,00 € |
+| Gesichts- und Kopfmassage | 25 Min | 22,50 € |
+| Klassische Massage        | 25 Min | 22,50 € |
+| Fußreflexzonenmassage     | 30 Min | 27,50 € |
+| Fußreflexzonenmassage     | 45 Min | 40,00 € |
+| Migränebehandlung         | 50 Min | 50,00 € |
+| Ganzkörper-Massage        | 50 Min | 45,00 € |
 
 ### Zusatzangebote zur Massage
 
 | Angebot                    | Dauer  | Preis   |
 | -------------------------- |:------:| -------:|
-| Wärmebehandlung (Infrarot) | 10 Min | 3,00 € |
-| Fangopackung               | 30 Min | 6,00 € |
+| Wärmebehandlung (Infrarot) | 10 Min | 5,00 € |
+| Fangopackung               | 30 Min | 8,00 € |
 
 
 Zehnerkarte
 10 Behandlungen und nur 9 Behandlungen bezahlen
-Bspw. 10 Massagen zu 180,- € statt 200,- €
+Bspw. 10 Massagen zu 200,- € statt 225,- €
 
 Fünferkarte
-Bspw. 5 Massagen zu 90,- € statt 100,- €
+Bspw. 5 Massagen zu 100,- € statt 112,50- €
 
 **Alle Leistungen sind auch als Geschenkgutschein erhältlich**
 
