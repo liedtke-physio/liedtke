@@ -1,7 +1,7 @@
 ---
 title: Willkommen auf der Webseite der Physiotherapie Liedtke
 lang: de-DE
-version: 0.3
+version: 0.4
 ---
 
 # Hausbesuche & Praxis
