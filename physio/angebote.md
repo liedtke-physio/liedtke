@@ -13,10 +13,8 @@ Gültigkeit der Preise ab 01.08.2022
 
 | Massagen                  | Dauer  | Preis   |
 | ------------------------- |:------:| -------:|
-| Gesichts- und Kopfmassage | 25 Min | 27,50 € |
-| Klassische Massage        | 25 Min | 27,50 € |
-| Fußreflexzonenmassage     | 30 Min | 27,50 € |
-| Fußreflexzonenmassage     | 45 Min | 40,00 € |
+| Gesichts- und Kopfmassage | 25 Min | 28,00 € |
+| Klassische Massage        | 25 Min | 28,00 € |
 | Migränebehandlung         | 50 Min | 55,00 € |
 | Ganzkörper-Massage        | 50 Min | 55,00 € |
 
@@ -30,10 +28,10 @@ Gültigkeit der Preise ab 01.08.2022
 
 ## Zehnerkarte
 10 Behandlungen und nur 9 Behandlungen bezahlen
-Bspw. 10 Massagen zu 247,50- € statt 275,- €
+Bspw. 10 Massagen zu 252,- € statt 280,- €
 
 ## Fünferkarte
-Bspw. 5 Massagen zu 123,75 € statt 137,50- €
+Bspw. 5 Massagen zu 126,- € statt 140,- €
 
 **Alle Leistungen sind auch als Geschenkgutschein erhältlich**
 
