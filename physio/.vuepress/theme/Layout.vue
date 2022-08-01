@@ -69,6 +69,9 @@
         }, {
           text: '[Impressum]',
           link: '/impressum.html'
+        }, {
+          text: '[Datenschutz]',
+          link: '/datenschutz.html'
         }]
       }
     },
