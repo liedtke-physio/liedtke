@@ -10,6 +10,14 @@ Liebe Patienten, sehr geehrte Damen und Herren, herzlich willkommen auf der Webs
 Wir haben weiterhin geöffnet. Achten Sie auf die Hygiene. Falls sich etwas ändert, geben wir Ihnen Bescheid. Wir würden Termine in jedem Fall telefonisch absagen. Aber bisher geht die gesundheitliche Versorgung weiter. Bleiben Sie gesund!
 </p>
 
+<div style="border: 4px dotted #990000; background: white; padding: 10px; border-radius: 2px; overflow: hidden;">
+  <h2>Wir suchen Verstärkung!</h2>	
+  <p>Physiotherapeut (w/m/d)</p>
+  <p>Qualifikation: MLD, und MT ggf. KG ZNS.</p>
+<p>Arbeitszeit Teilzeit oder Vollzeit. Gute Bezahlung und Zusatzleistungen. Alle Angaben werden vertraulich behandelt. Gerne Genen wir auch telefonische Auskunft vorab. <a href="tel:+491739168918">0173/9168918</a></p>
+  </p>
+</div>
+
 Das Wohlbefinden unserer Kunden steht bei uns an erster Stelle. Wir möchten Sie mit unseren Behandlungen wieder fit für den stressigen Alltag machen und in Schwung bringen.
 
 Für die Anwendungen in der Praxis stehen drei Behandlungs-räume und ein Gymnastikraum zur Verfügung.

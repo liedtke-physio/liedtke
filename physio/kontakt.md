@@ -41,12 +41,9 @@ meta:
 </table>
 
 ## So finden Sie uns:
+<a target="_blank" href="http://maps.google.de/maps?f=q&amp;source=embed&amp;hl=de&amp;geocode=&amp;q=physio+bernauerstra%C3%9Fe+97&amp;aq=&amp;sll=52.762593,13.257322&amp;sspn=0.008946,0.01929&amp;gl=de&amp;ie=UTF8&amp;hq=physio+bernauerstra%C3%9Fe+97&amp;hnear=&amp;ll=52.762294,13.256721&amp;spn=0.010388,0.021415&amp;z=15&amp;iwloc=A">Auf Google Maps anzeigen</a>
 
-<iframe 
-  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9657.717297260573!2d13.256242!3d52.76053!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb39bfe3af5e0f98d!2sPhysiotherapie+Ute+Liedtke!5e0!3m2!1sde!2sus!4v1540547537901" 
-  height="450" 
-  frameborder="0" 
-  style="max-width:450px;width:100%;border:0;margin:20px 0;" 
-  allowfullscreen=""></iframe>
+<a target="_blank" href="https://www.openstreetmap.org/?mlat=52.75859&mlon=13.25577#map=19/52.75859/13.25577">Auf OpenStreetMap anzeigen</a>
 
-<a target="_blank" href="http://maps.google.de/maps?f=q&amp;source=embed&amp;hl=de&amp;geocode=&amp;q=physio+bernauerstra%C3%9Fe+97&amp;aq=&amp;sll=52.762593,13.257322&amp;sspn=0.008946,0.01929&amp;gl=de&amp;ie=UTF8&amp;hq=physio+bernauerstra%C3%9Fe+97&amp;hnear=&amp;ll=52.762294,13.256721&amp;spn=0.010388,0.021415&amp;z=15&amp;iwloc=A">Größere Kartenansicht</a>
+<img style="max-width: 100%" src="/images/maps.jpg" alt="Karte">
+
