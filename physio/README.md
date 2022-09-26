@@ -14,7 +14,7 @@ Wir haben weiterhin geöffnet. Achten Sie auf die Hygiene. Falls sich etwas änd
   <h2>Wir suchen Verstärkung!</h2>	
   <p>Physiotherapeut (w/m/d)</p>
   <p>Qualifikation: MLD, und MT ggf. KG ZNS.</p>
-<p>Arbeitszeit Teilzeit oder Vollzeit. Gute Bezahlung und Zusatzleistungen. Alle Angaben werden vertraulich behandelt. Gerne Genen wir auch telefonische Auskunft vorab. <a href="tel:+491739168918">0173/9168918</a></p>
+<p>Arbeitszeit Teilzeit oder Vollzeit. Gute Bezahlung und Zusatzleistungen. Alle Angaben werden vertraulich behandelt. Gerne geben wir auch telefonische Auskunft vorab. <a href="tel:+491739168918">0173/9168918</a></p>
   </p>
 </div>
 
