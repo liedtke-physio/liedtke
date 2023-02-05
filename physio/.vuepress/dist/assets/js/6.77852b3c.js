@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{241:function(s,a,e){"use strict";e.r(a);var i={name:"Praxis",computed:{images:()=>[...Array(11)].map((s,a)=>({src:"./images/praxis/img_"+(a+1)+".jpg"}))}},n=e(13),r=Object(n.a)(i,(function(){return(0,this._self._c)("Gallery",{attrs:{images:this.images}})}),[],!1,null,null,null);a.default=r.exports}}]);
