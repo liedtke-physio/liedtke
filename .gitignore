@@ -1,5 +1,2 @@
-physio/.vuepress/dist/
-physio/.vuepress/.cache
-physio/.vuepress/.temp
 physio/node_modules
 beratung/.vuepress/dist/
