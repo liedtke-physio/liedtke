@@ -1,4 +1,6 @@
 name: Build & Deploy Physio
+permissions:
+   contents: write
 
 on:
   push:
