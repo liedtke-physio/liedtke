@@ -34,4 +34,10 @@ jobs:
         npm run build
       env:
         CI: true
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - name: GIT commit and push all changed files
+      run: |
+        git config --global user.name "Liedtke"
+        git config --global user.email "liedtke@physio-oranienburg.de"
+        git commit -a -m "feat: apply changes"
+        git push
+        git subtree push --prefix .vuepress/dist origin physio
